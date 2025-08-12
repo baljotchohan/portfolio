@@ -1,3 +1,0 @@
-# portfolio
-
-kive a singhh
