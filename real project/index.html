@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Baljot Singh Chohan — Portfolio</title>
+    <meta name="description" content="Baljot Singh Chohan — BCA student at GKSM College, AI/ML engineer, and NIFTY 50 options trader (3 years)." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-3d">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#" aria-label="Baljot Singh Chohan home">
+          <img class="logo-img" src="logo.png" alt="BSC logo" />
+          <span class="logo-text">Baljot Singh Chohan</span>
+        </a>
+
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Baljot Singh Chohan , BCA student, AI/ML engineer & NIFTY 50 options trader</h1>
+            <p>I'm a BCA student at GKSM College. I explore artificial intelligence and machine learning, and I have been trading NIFTY 50 options for the past 3 years.</p>
+            
+            
+          </div>
+
+          <div class="hero-art avatar-wrap tilt" data-tilt-max="10">
+            <img class="avatar" src="mypic.jpg" alt="Portrait of Baljot Singh Chohan" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about container">
+        <div class="eyebrow">About</div>
+        <div class="about-grid">
+          <p>
+            I’m passionate about technology, markets, and data. My interests
+            include building useful software, applying AI/ML to real problems,
+            and refining disciplined trading strategies in India’s NIFTY 50
+            options.
+          </p>
+          <div class="about-stats">
+            <div class="pill tilt" data-tilt-max="6"><strong>BCA</strong> @ GKSM College</div>
+            <div class="pill tilt" data-tilt-max="6"><strong>AI/ML</strong> engineer</div>
+            <div class="pill tilt" data-tilt-max="6"><strong>3+ yrs</strong> options trading</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section container contact">
+        <div class="section-head">
+          <span class="tag">Contact</span>
+          <p>Reach out for projects, collaborations, or just to say hello.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info tilt" data-tilt-max="6">
+            <span class="badge">Typically replies in &lt; 24h</span>
+            <h3>Let’s connect and build something great</h3>
+            <p class="note">Pick a channel below or use the form. I’ll get back to you soon.</p>
+            <ul class="chips">
+              <li><a class="chip" href="mailto:baljotchohan23@gmail.com">✉️ Email</a></li>
+              <li><a class="chip" href="tel:9465661767">📞 Call</a></li>
+              <li><a class="chip" href="https://instagram.com/baljotchohan_01" target="_blank" rel="noopener">📷 Instagram</a></li>
+              <li><a class="chip" href="https://twitter.com/baljotchohan" target="_blank" rel="noopener">𝕏 Twitter</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-card tilt" data-tilt-max="8" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks! I\'ll respond soon.');">
+            <label>
+              <span class="sr-only">Your name</span>
+              <input type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              <span class="sr-only">Your email</span>
+              <input type="email" placeholder="Your email" required />
+            </label>
+            <label class="full">
+              <span class="sr-only">Message</span>
+              <textarea rows="4" placeholder="Tell me about your idea…"></textarea>
+            </label>
+            <button class="btn btn-dark" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="logo" href="#">
+            <span class="logo-mark" aria-hidden="true">◆</span>
+            <span class="logo-text">Baljot Singh Chohan</span>
+          </a>
+          <p>© <span id="year"></span> All rights reserved.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="https://instagram.com/baljotchohan_01" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://twitter.com/baljotchohan" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="tel:9465661767">Call: 9465661767</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
